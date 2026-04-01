@@ -38,8 +38,6 @@ The same logic is exposed through:
 ├── data/
 ├── examples/
 ├── scripts/
-├── results/
-├── outputs/
 ├── environment.yml
 └── requirements.txt
 ```
@@ -207,12 +205,6 @@ Default input:
 
 - [`data/basins/poyang`](data/basins/poyang)
 
-Main outputs:
-
-- `outputs/single/poyang/runoff/`
-- `outputs/single/poyang/precipitation/`
-- `outputs/single/poyang/multilevel_continuous/`
-- `outputs/single/poyang/multilevel_gridded/`
 
 ### 2. Batch Reproducibility
 
@@ -230,12 +222,6 @@ Default input:
 
 - [`data/basins/global`](data/basins/global)
 
-Main outputs:
-
-- `outputs/batch/runoff/`
-- `outputs/batch/precipitation_level0/`
-- `outputs/batch/multilevel_continuous/`
-- `outputs/batch/multilevel_gridded/`
 
 ### 3. Figure Script Mapping
 
@@ -260,9 +246,6 @@ Figure-oriented scripts are stored under [`scripts/`](scripts/):
   [`scripts/11_prepare_figure8_standard_inputs.py`](scripts/11_prepare_figure8_standard_inputs.py),
   [`scripts/12_figure8_global_annual_rci_timeseries.py`](scripts/12_figure8_global_annual_rci_timeseries.py),
   [`scripts/13_figure8_trend_analysis.py`](scripts/13_figure8_trend_analysis.py)
-
-Figure outputs are written under [`results/`](results). See
-[`results/README.md`](results/README.md) for file-level details.
 
 ## Command Reference
 
@@ -524,35 +507,6 @@ Additional parameters:
 - `--reduction`
   Reduction for non-spatial dimensions.
 
-## Outputs
-
-### Operational Workflow Outputs
-
-Routine CLI outputs are written under:
-
-- [outputs](outputs)
-
-Typical locations:
-
-- single-basin outputs:
-  - `outputs/single/<BASIN>/runoff/`
-  - `outputs/single/<BASIN>/precipitation/`
-  - `outputs/single/<BASIN>/multilevel_continuous/`
-  - `outputs/single/<BASIN>/multilevel_gridded/`
-- batch outputs:
-  - `outputs/batch/runoff/`
-  - `outputs/batch/precipitation_level0/`
-  - `outputs/batch/multilevel_continuous/`
-  - `outputs/batch/multilevel_gridded/`
-
-### Figure-Specific Analysis Outputs
-
-Figure-specific tables and plots are written under:
-
-- [results](results)
-
-See [results/README.md](results/README.md)
-for the mapping from figures to result folders.
 
 ## Analysis Scripts
 
