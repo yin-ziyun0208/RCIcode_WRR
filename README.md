@@ -46,7 +46,7 @@ The same logic is exposed through:
 
 See:
 
-- [data/README.md](data/README.md)
+- [data/README.md](data/README.md)(data download: https://doi.org/10.5281/zenodo.19364593)
 - [examples/README.md](examples/README.md)
 - [scripts/README.md](scripts/README.md)
 - [results/README.md](results/README.md)
