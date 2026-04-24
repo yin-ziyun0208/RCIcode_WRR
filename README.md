@@ -526,3 +526,8 @@ under:
 
 These cases can be run directly with the same Python entry scripts as the full
 project data.
+
+
+Citation：
+Yin, Z., Lin, P., Yamazaki, D., Lin, H., & Zhang, F. (2026). Relative Centroid Index (RCI): A Novel Scale-Independent Metric for Assessing Hydrological Distributions across Hierarchical River Networks. Manuscript revised for publication in Water Resources Research
+Contact: Ziyun Yin (yinziyun0208@stu.pku.edu.cn)
