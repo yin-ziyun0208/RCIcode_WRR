@@ -9,8 +9,7 @@ The project is organized around **two active entry scripts**:
 - [single_basin_workflows.py](code/single_basin_workflows.py)
 - [batch_basin_workflows.py](code/batch_basin_workflows.py)
 
-Both scripts operate on **packaged basin folders**. The code no longer depends
-on the former raw global fallback layout.
+Both scripts operate on **packaged basin folders** using the case of Poyang Lake basin.
 
 ## What The Repository Does
 
@@ -71,8 +70,7 @@ cd /path/to/RCI_code-main
 ```
 
 The repository is tested against the dependency set pinned in
-[`environment.yml`](environment.yml). For reproducible paper workflows, prefer
-that file over ad hoc package installation.
+[`environment.yml`](environment.yml). 
 
 ## Data Model
 
